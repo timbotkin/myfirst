@@ -1,0 +1,318 @@
+2013/04/14 05:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/model".' in F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test5/index.php/gii/model
+---
+2013/04/14 06:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test5/index.php/admin/index
+---
+2013/04/14 06:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test5/index.php/admin/
+---
+2013/04/14 06:19:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test5/index.php/admin/
+---
+2013/04/14 06:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test5/index.php/admin/
+---
+2013/04/14 06:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/default/index".' in F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/i...')
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test5/index.php/admin/default/index
+---
+2013/04/14 06:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/default/index".' in F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/i...')
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test5/index.php/admin/default/index
+---
+2013/04/14 08:02:10 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/start.php
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 08:02:10 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/start.php
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 08:09:59 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 08:09:59 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 08:11:26 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/start.php
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 08:23:33 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 08:36:18 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 08:47:57 [error] [exception.CException] exception 'CException' with message 'Alias "user.UserModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:316
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(196): YiiBase::import('user.UserModule', true)
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CModule->getModule('user')
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController('user/install')
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('user/install')
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/test5/index.php/user/install/
+---
+2013/04/14 08:59:09 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:06:40 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:06:46 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:07:19 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:11:51 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:11:54 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:11:55 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:11:57 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:11:59 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:12:01 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:44:16 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:44:19 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/14 09:44:21 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(206): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(282): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/index.php/user/install/
+in F:\EasyPHP\www\test5\index.php (13)
+2013/04/16 19:48:12 [error] [php] include(YumWebUser.php): failed to open stream: No such file or directory (F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 F:\EasyPHP\www\yii-1.1.13\framework\YiiBase.php(217): spl_autoload_call()
+#1 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(386): createComponent()
+#2 F:\EasyPHP\www\yii-1.1.13\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 F:\EasyPHP\www\test5\protected\views\layouts\main.php(35): CWebApplication->__get()
+#4 F:\EasyPHP\www\yii-1.1.13\framework\web\CBaseController.php(126): require()
+#5 F:\EasyPHP\www\yii-1.1.13\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 F:\EasyPHP\www\yii-1.1.13\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#7 F:\EasyPHP\www\yii-1.1.13\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 F:\EasyPHP\www\yii-1.1.13\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 F:\EasyPHP\www\yii-1.1.13\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 F:\EasyPHP\www\yii-1.1.13\framework\web\CBaseController.php(300): SiteController->endWidget()
+#11 F:\EasyPHP\www\test5\protected\views\layouts\column1.php(6): SiteController->endContent()
+#12 F:\EasyPHP\www\yii-1.1.13\framework\web\CBaseController.php(126): require()
+#13 F:\EasyPHP\www\yii-1.1.13\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 F:\EasyPHP\www\yii-1.1.13\framework\web\CController.php(784): SiteController->renderFile()
+#15 F:\EasyPHP\www\test5\protected\controllers\SiteController.php(32): SiteController->render()
+#16 F:\EasyPHP\www\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 F:\EasyPHP\www\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 F:\EasyPHP\www\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#19 F:\EasyPHP\www\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#21 F:\EasyPHP\www\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 F:\EasyPHP\www\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 F:\EasyPHP\www\test5\index.php(13): CWebApplication->run()
+REQUEST_URI=/test5/
+in F:\EasyPHP\www\test5\protected\views\layouts\main.php (35)
+in F:\EasyPHP\www\test5\protected\views\layouts\column1.php (6)
+in F:\EasyPHP\www\test5\protected\controllers\SiteController.php (32)
